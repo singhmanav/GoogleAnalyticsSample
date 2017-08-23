@@ -12,6 +12,10 @@
 		695739D01F4D87C800A24F58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 695739CE1F4D87C800A24F58 /* Main.storyboard */; };
 		695739D21F4D87C800A24F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 695739D11F4D87C800A24F58 /* Assets.xcassets */; };
 		695739D51F4D87C800A24F58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 695739D31F4D87C800A24F58 /* LaunchScreen.storyboard */; };
+		695739DD1F4D8ED900A24F58 /* iPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695739DC1F4D8ED900A24F58 /* iPhoneViewController.swift */; };
+		695739DF1F4D8EE000A24F58 /* iPadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695739DE1F4D8EE000A24F58 /* iPadViewController.swift */; };
+		695739E11F4D8EE700A24F58 /* AppleWatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695739E01F4D8EE700A24F58 /* AppleWatchViewController.swift */; };
+		695739E31F4D8EF300A24F58 /* iMacViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695739E21F4D8EF300A24F58 /* iMacViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		695739D11F4D87C800A24F58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		695739D41F4D87C800A24F58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		695739D61F4D87C800A24F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		695739DC1F4D8ED900A24F58 /* iPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneViewController.swift; sourceTree = "<group>"; };
+		695739DE1F4D8EE000A24F58 /* iPadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadViewController.swift; sourceTree = "<group>"; };
+		695739E01F4D8EE700A24F58 /* AppleWatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchViewController.swift; sourceTree = "<group>"; };
+		695739E21F4D8EF300A24F58 /* iMacViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMacViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				695739D11F4D87C800A24F58 /* Assets.xcassets */,
 				695739D31F4D87C800A24F58 /* LaunchScreen.storyboard */,
 				695739D61F4D87C800A24F58 /* Info.plist */,
+				695739DC1F4D8ED900A24F58 /* iPhoneViewController.swift */,
+				695739DE1F4D8EE000A24F58 /* iPadViewController.swift */,
+				695739E01F4D8EE700A24F58 /* AppleWatchViewController.swift */,
+				695739E21F4D8EF300A24F58 /* iMacViewController.swift */,
 			);
 			path = GoogleAnalyticsSample;
 			sourceTree = "<group>";
@@ -135,6 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				695739E11F4D8EE700A24F58 /* AppleWatchViewController.swift in Sources */,
+				695739DF1F4D8EE000A24F58 /* iPadViewController.swift in Sources */,
+				695739E31F4D8EF300A24F58 /* iMacViewController.swift in Sources */,
+				695739DD1F4D8ED900A24F58 /* iPhoneViewController.swift in Sources */,
 				695739CD1F4D87C800A24F58 /* ViewController.swift in Sources */,
 				695739CB1F4D87C800A24F58 /* AppDelegate.swift in Sources */,
 			);
